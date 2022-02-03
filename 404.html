@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Arnaud Laborde : Etudiant & Web Worker</title>
+
+    <link rel="shortcut icon" type="image/png" href="./img/icon/favicon/favicon.ico"/>
+    
+      <!-- CSS Spécific -->
+
+      <link rel="stylesheet" href="./css/swiper.min.css" type="text/css">
+
+      <!-- CSS & JS All files -->
+
+      <link rel="stylesheet" href="./css/general.css" type="text/css">
+
+      <!-- CSS => Destock -->
+
+      <link rel="stylesheet" href="./css/destock/navigation.css" type="text/css" media="screen and (min-width: 600px)">
+      <link rel="stylesheet" href="./css/destock/accueil.css" type="text/css" media="screen and (min-width: 600px)">
+
+      <!-- CSS => Mobile -->
+
+      <link rel="stylesheet" href="./css/mobile/navigation.css" type="text/css" media="screen and (max-width: 600px)">
+      <link rel="stylesheet" href="./css/mobile/accueil.css" type="text/css" media="screen and (max-width: 600px)">
+      
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Arnaud Laborde : Etudiant & Web Worker">
+    <meta name="description" content="Arnaud, passionné de digital, s'ouvre à vous sur son site qu'il a lui même conçus. Autodidacte en web développement, ce site est pour lui une vitrine de ses arts.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.arnaudlaborde.fr/">
+    <meta property="og:title" content="Arnaud Laborde : Etudiant & Web Worker">
+    <meta property="og:description" content="Arnaud, passionné de digital, s'ouvre à vous sur son site qu'il a lui même conçus. Autodidacte en web développement, ce site est pour lui une vitrine de ses arts.">
+    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.arnaudlaborde.fr/">
+    <meta property="twitter:title" content="Arnaud Laborde : Etudiant & Web Worker">
+    <meta property="twitter:description" content="Arnaud, passionné de digital, s'ouvre à vous sur son site qu'il a lui même conçus. Autodidacte en web développement, ce site est pour lui une vitrine de ses arts.">
+    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+</head>
+<body>
+
+    <!--HEADER-->
+
+    <header class="header">
+
+        <a href="./index.html" id="logoHeaderContainer">
+            <img src="./img/Logowhite.svg" id="logoHeader">
+            <p id="nameLogo">Arnaud Laborde</p>
+        </a>
+
+        <div id="toggleIcon" onclick="menuToggle()"></div>
+        <div class="menu" id="menu-overlay">
+
+            <ul class="menuul">                        
+                <li id="accueil">
+                    <a href="#">Accueil</a>
+                </li>
+                <li id="presentation">
+                    <a href="#presentationContainer">Présentation</a>
+                </li>
+                <li>
+                    <a href="#portfolioContainer">PortFolio</a>
+                </li>
+                <li>
+                    <a href="#contactContainer">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+        <script type="text/javascript">
+            function menuToggle(){
+                var nav = document.getElementById('menu-overlay');
+                nav.classList.toggle('activated');
+                var nav = document.getElementById('toggleIcon');
+                nav.classList.toggle('activated');
+            }
+        </script>
+    </header>
+
+    <!--FIN HEADER-->
+
+    <h2>Erreur 404</h2>
+    <h3>Oups cette page n'existe pas</h3>
+
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Arnaud Laborde : Etudiant & Web Worker</title>
+
+    <link rel="shortcut icon" type="image/png" href="./img/icon/favicon/favicon.ico"/>
+    
+      <!-- CSS Spécific -->
+
+      <link rel="stylesheet" href="./css/swiper.min.css" type="text/css">
+
+      <!-- CSS & JS All files -->
+
+      <link rel="stylesheet" href="./css/general.css" type="text/css">
+
+      <!-- CSS => Destock -->
+
+      <link rel="stylesheet" href="./css/destock/navigation.css" type="text/css" media="screen and (min-width: 600px)">
+      <link rel="stylesheet" href="./css/destock/accueil.css" type="text/css" media="screen and (min-width: 600px)">
+
+      <!-- CSS => Mobile -->
+
+      <link rel="stylesheet" href="./css/mobile/navigation.css" type="text/css" media="screen and (max-width: 600px)">
+      <link rel="stylesheet" href="./css/mobile/accueil.css" type="text/css" media="screen and (max-width: 600px)">
+      
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Arnaud Laborde : Etudiant & Web Worker">
+    <meta name="description" content="Arnaud, passionné de digital, s'ouvre à vous sur son site qu'il a lui même conçus. Autodidacte en web développement, ce site est pour lui une vitrine de ses arts.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.arnaudlaborde.fr/">
+    <meta property="og:title" content="Arnaud Laborde : Etudiant & Web Worker">
+    <meta property="og:description" content="Arnaud, passionné de digital, s'ouvre à vous sur son site qu'il a lui même conçus. Autodidacte en web développement, ce site est pour lui une vitrine de ses arts.">
+    <meta property="og:image" content="https://www.arnaudlaborde.fr/img/meta/alwebsite.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.arnaudlaborde.fr/">
+    <meta property="twitter:title" content="Arnaud Laborde : Etudiant & Web Worker">
+    <meta property="twitter:description" content="Arnaud, passionné de digital, s'ouvre à vous sur son site qu'il a lui même conçus. Autodidacte en web développement, ce site est pour lui une vitrine de ses arts.">
+    <meta property="twitter:image" content="https://www.arnaudlaborde.fr/img/meta/alwebsite.png">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147727412-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-147727412-1');
+    </script>
+    
+</head>
+<body>
+
+    <!--HEADER-->
+
+    <header class="header">
+  
+        <a href="./accueil.html" id="comeBackBtn">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="80px" height="80px" viewBox="0 0 80 80" enable-background="new 0 0 80 80" xml:space="preserve">
+            <g>
+                <path d="M4.117,38.051L38.968,3.546v5.826c0,0.658-0.093,1.225-0.279,1.702c-0.186,0.48-0.512,0.957-0.976,1.434L12.017,37.603
+                    c-1.023,1.018-2.138,1.794-3.346,2.332c1.301,0.537,2.417,1.286,3.346,2.242l25.696,25.182c0.464,0.479,0.79,0.957,0.976,1.434
+                    c0.187,0.48,0.279,1.045,0.279,1.703v5.826L4.117,41.725V38.051z"/>
+            </g>
+            </svg>
+        </a>
+
+        <a href="./index.html" id="logoHeaderContainer">
+            <img src="./img/Logowhite.svg" id="logoHeader" alt="Logo AL">
+            <p id="nameLogo">Arnaud Laborde</p>
+        </a>
+
+        <div id="toggleIcon" onclick="menuToggle()"></div>
+        <div class="menu" id="menu-overlay">
+
+            <ul class="menuul">                        
+                <li id="accueil">
+                    <a href="./accueil.html">Accueil</a>
+                </li>
+                <li id="presentation">
+                    <a href="./accueil.html#presentationContainer">Présentation</a>
+                </li>
+                <li>
+                    <a href="./accueil.html#portfolioContainer">PortFolio</a>
+                </li>
+                <li>
+                    <a href="./accueil.html#contactContainer">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+        <script type="text/javascript">
+            function menuToggle(){
+                var nav = document.getElementById('menu-overlay');
+                nav.classList.toggle('activated');
+                var nav = document.getElementById('toggleIcon');
+                nav.classList.toggle('activated');
+            }
+        </script>
+    </header>
+
+    <!--FIN HEADER-->
+
+    <h1 id="titleMentionsLegales">Mentions Légales</h1>
+
+    <p id="presetMentionsLegales">
+        Site édité par :<br>
+        <strong>Arnaud Laborde</strong><br>
+        (40) Landes - France<br>
+        arnaudlaborde.pro@gmail.com<br>
+        <br>
+        Propriétaire du site :<br>
+        <strong>Arnaud Laborde</strong><br>
+        (40) Landes - France<br>
+        arnaudlaborde.pro@gmail.com<br>
+        <br>
+        Hébergeur du site :<br>
+        <strong>OVH</strong><br>
+        2 rue Kellermann<br>
+        59100 Roubaix - France
+    </p>
+        <span><p><strong>En vous connectant sur ce site, vous acceptez les présentes modalités.</strong></p></span>
+    <p id="textMentionsLegales">
+        L'ensemble de ce site relêve des législations française et internationale sur le droit d'auteur et la propriété intellectuelle. Tous droits de reproduction sont réservés, y compris pour les documents iconographiques et photographiques. Merci de lire attentivement les présentes mentions légales du site de ARNAUD LABORDE.<br>
+        <br>
+        <u>Traitement des informations</u><br>
+        Les informations et les illustrations présentes sur ce site sont non contractuelles. ARNAUD LABORDE décline toute responsabilité quant à leur complétude, leur exactitude ou leur pertinence. ARNAUD LABORDE se réserve le droit de modifier, de corriger, ou de supprimer des informations sur son site, à tout moment et sans préavis.<br>
+        <br>
+        <u>Traitement des données personnelles</u><br>
+        Les informations recueillies auprês des personnes par le biais du formulaire de contact ou par l'envoie de messages électroniques sont destinées exclusivement à l'usage de ARNAUD LABORDE. Elles ne sont en aucun cas communiquées à des tiers.
+        Conformément aux articles 39 et suivants de la loi n°78-17 du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, toute personne peut obtenir communication et le cas échéant, rectification ou suppression des informations la concernant, en s'adressant à ARNAUD LABORDE. Toute personne peut également, pour des motifs légitimes, s'opposer au traitement des données la concernant. Pour exercer ce droit, adressez-vous à ARNAUD LABORDE.<br>
+        <br>
+        <u>Crédits textes</u><br>
+        Tous les textes sont produits par ARNAUD LABORDE. Conformément au Code de la Propriété intellectuelle, toute utilisation ou reprise des contenus du site doit faire l'objet d'une autorisation écrite par le propriétaire du site. Les informations utilisées ne doivent l'être qu'à des fins personnelles, associatives; toute utilisation à des fins commerciales ou publicitaires est exclue.<br>
+        <br>
+        <u>La reproduction sur support papier</u><br>
+        A l'execption de l'iconographie, la reproduction des pages de ce site sur un support papier pourra être autorisée, sous réserve du respect des trois conditions suivantes :<br>
+        - gratuité de la diffusion,<br>
+        - respect de l'intégrité des documents reproduits (aucune modification, ni altération d'aucune sorte)<br>
+        - citation explicite du site comme source et mention que les droits de reproduction sont réservés et strictement limités.<br>
+        <br>
+        <u>La reproduction sur support électroniques</u><br>
+        La reproduction de tout ou partie de ce site sur un support électronique pourra être autorisée sous réserve de l'ajout de façon claire et lisible de la source et de la mention "Droits réservés".<br>
+        <br>
+        <u>Crédits photos</u><br>
+        L'ensemble des illustrations, photographiques, plans, dessins, animations, vidéos, sons de ce site sont libres de droits. Leur reproduction et utilisation par  un tiers est autorisée sous réserve de l'ajout de façon claire et lisible de la source.<br>
+        <br>
+        <u>La créations de liens vers ce site</u><br>
+        Il est possible de créer un lien hypertexte pointant vers ce site sans demande d'autorisation.<br>
+        Attention ! Cette rêgle ne s'applique pas aux sites internets diffusant des informations à caractêre polémique, pornographique, xénophobe ou pouvant, dnas une plus large mesure porter atteinte à la sensibilité du plus grand nombre. ARNAUD LABORDE se réserve le droit de demander la suppression d'un lien qu'il estime non conforme à sa ligne éditoriale.
+    </p>
+
+    <footer>
+        <div>
+            <a href="https://www.instagram.com/mrlbrd/" target="_blank">
+              <svg fill="#ffffff" id="instagram" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="250px" height="250px">    
+                <path d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z"/>
+              </svg>
+            </a>
+            <a href="https://www.youtube.com/channel/UCKtT23P7NkPq-jeXamnQ5_g" target="_blank">
+              <svg fill="#ffffff" id="youtube" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="250px" height="250px">
+                <path fill-rule="evenodd" d="M 13 5 L 16 14 L 16 20 L 18 20 L 18 14 L 21 5 L 19 5 L 17 11 L 15 5 Z M 24 9 C 22.933594 9 22.410156 9.167969 21.757813 9.703125 C 21.132813 10.230469 20.960938 10.636719 21 12 L 21 17 C 21 17.996094 21.164063 18.652344 21.765625 19.234375 C 22.390625 19.816406 22.980469 20 24 20 C 25.066406 20 25.648438 19.816406 26.25 19.234375 C 26.875 18.675781 27 17.996094 27 17 L 27 12 C 27 11.117188 26.84375 10.28125 26.238281 9.722656 C 25.613281 9.148438 24.96875 9 24 9 Z M 29 9 L 29 18 C 29 18.972656 29.980469 20 31 20 C 32.019531 20 32.558594 19.488281 33 19 L 33 20 L 35 20 L 35 9 L 33 9 L 33 17 C 32.988281 17.683594 32.183594 18 32 18 C 31.792969 18 31 17.957031 31 17 L 31 9 Z M 24 11 C 24.300781 11 25 10.996094 25 12 L 25 17 C 25 17.96875 24.324219 18 24 18 C 23.699219 18 23 17.988281 23 17 L 23 12 C 23 11.183594 23.433594 11 24 11 Z M 10 22 C 6.40625 22 4 24.382813 4 28 L 4 37.5 C 4 41.117188 6.40625 44 10 44 L 40 44 C 43.59375 44 46 41.617188 46 38 L 46 28 C 46 24.382813 43.59375 22 40 22 Z M 12 26 L 18 26 L 18 28 L 16 28 L 16 40 L 14 40 L 14 28 L 12 28 Z M 26 26 L 28 26 L 28 30 C 28.230469 29.640625 28.574219 29.355469 28.902344 29.195313 C 29.222656 29.03125 29.546875 28.9375 29.875 28.9375 C 30.523438 28.9375 31.03125 29.171875 31.378906 29.609375 C 31.726563 30.050781 32 30.636719 32 31.5 L 32 37.5 C 32 38.242188 31.75 38.703125 31.421875 39.097656 C 31.101563 39.492188 30.621094 39.992188 30 40 C 28.949219 40.011719 28.386719 39.449219 28 39 L 28 40 L 26 40 Z M 18 29 L 20 29 L 20 37 C 20 37.230469 20.269531 38.007813 21 38 C 21.8125 37.992188 21.820313 37.234375 22 37 L 22 29 L 24 29 L 24 40 L 22 40 L 22 39 C 21.628906 39.4375 21.4375 39.574219 21.019531 39.78125 C 20.605469 40.015625 20.183594 40 19.792969 40 C 19.308594 40 18.757813 39.5625 18.5 39.234375 C 18.269531 38.933594 18 38.625 18 38 Z M 36.199219 29 C 37.148438 29 37.816406 29.203125 38.320313 29.734375 C 38.835938 30.265625 39 30.886719 39 31.886719 L 39 35 L 35 35 L 35 36.546875 C 35 37.105469 35.074219 37.460938 35.21875 37.671875 C 35.355469 37.902344 35.632813 38.003906 36 38 C 36.40625 37.996094 36.664063 37.914063 36.800781 37.730469 C 36.941406 37.566406 37 37.101563 37 36.5 L 37 36 L 39 36 L 39 36.59375 C 39 37.683594 38.914063 38.496094 38.375 39.027344 C 37.867188 39.585938 37.074219 39.84375 36.035156 39.84375 C 35.085938 39.84375 34.34375 39.5625 33.8125 38.984375 C 33.28125 38.40625 33.003906 37.613281 33.003906 36.59375 L 33.003906 31.886719 C 33.003906 30.980469 33.320313 30.308594 33.902344 29.710938 C 34.371094 29.230469 35.25 29 36.199219 29 Z M 29 30.5 C 28.449219 30.5 28.007813 30.996094 28 31.5 L 28 37.5 C 28.007813 37.789063 28.449219 38 29 38 C 29.550781 38 30 37.574219 30 37.023438 L 30 32 C 30 31 29.550781 30.5 29 30.5 Z M 36 31 C 35.449219 31 35.007813 31.464844 35 32 L 35 33 L 37 33 L 37 32 C 37 31.386719 36.550781 31 36 31 Z"/>
+              </svg>
+            </a>
+            <a href="https://twitter.com/MrLBRD" target="_blank">
+              <svg fill="#ffffff" id="twitter" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="250px" height="250px">
+                <path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"/>
+              </svg>
+            </a>
+            <a href="https://www.twitch.tv/mr_lbrd" target="_blank">
+              <svg fill="#ffffff" id="twitch" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="250px" height="250px">
+                <path d="M 5.3125 1 L 2 9.8125 L 2 43 L 13 43 L 13 49 L 20.40625 49 L 26.40625 43 L 35.40625 43 L 48 30.4375 L 48 1 Z M 11 6 L 43 6 L 43 28 L 37 34 L 25 34 L 19 40 L 19 34 L 11 34 Z M 20 13 L 20 27 L 26 27 L 26 13 Z M 30 13 L 30 27 L 36 27 L 36 13 Z"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/arnaud-laborde-95793717b/" target="_blank">
+              <svg fill="#ffffff" id="linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="250px" height="250px">    
+                <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"/>
+              </svg>
+            </a>
+        </div>
+        <ul>
+            <li>
+            <a href="#">Mentions Légales</a>
+            </li>
+            <li>
+            <a href="./map.html">Blog</a>
+            </li>
+            <li>
+            <a href="./img/charte_graphique.pdf" target="_blank">Charte Graphique</a>
+            </li>
+        </ul>
+        <p>2019-2020 © - Tous droits réservé</p>
+    </footer>
+      
+    <modal>
+      
+    </modal>
+</body>
+</html>
